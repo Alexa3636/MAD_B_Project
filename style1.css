@@ -1,0 +1,475 @@
+/* Digital sound as an alternative solution to handle insomnia! */
+
+body {
+	background: #fff;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+
+/* Navigation - header */
+
+#header {
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: 960px;
+}
+
+#header ul {
+	margin: 0;
+	padding: 56px 0 0;
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+}
+#header ul li a {
+	color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #ffaa80;
+}
+
+/* Body */
+
+#body {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+}
+
+/* Body - Title */
+
+#body h1 {
+	color: #fff;
+	display: inline;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 35px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body h1 span {
+	background: #252525;
+	display: inline-block;
+	padding: 15px 28px 12px;
+}
+
+/* Body - Head Image */
+
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#body > div img {
+	border: 2px solid #292929;
+	margin: 24px 0 0;
+	padding: 0;
+}
+
+/* Body - Text */
+
+#body > div .article {
+	margin: 0 auto;
+	padding: 30px 30px 0;
+	width: 560px;
+}
+#body > div .article h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+#body > div .article h3 {
+	color: #252525;
+	font-size: 22px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+
+#body > div .article p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	margin: 0 0 30px;
+}
+
+/* Body - Homepage link images */
+
+
+/* Body - Home page - Read more! */
+
+#body div ul li div a.more {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 8px 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body div ul li div a.more:hover {
+	color: #252525;
+	background: #fff;
+	border: 2px solid #252525;
+}
+
+/* Body - Home page - Image - Text */
+
+#body #featured {
+	margin: 0 0 13px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#body #featured img {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#body #featured div {
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -400px;
+	padding: 0 0 0 470px;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	width: 490px;
+}
+#body #featured div h2 {
+	
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0 0 18px;
+	padding: 20px 27px 20px;
+	text-transform: uppercase;
+	width: 600px;
+}
+#body #featured div span {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 7px 0;
+	padding: 12px 27px;
+}
+#body #featured div a {
+	background: #ffaa80;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body #featured div a:hover {
+	background: #ff9966;
+}
+#body > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+#body > ul li {
+	display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+}
+#body > ul li a {
+	color: #000;
+	display: block;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body > ul li a img {
+	border: 2px solid #1a1a1a;
+	display: block;
+	margin: 0;
+	padding: 0;
+	opacity: .8;
+	transition: 0.5s ease-in-out;
+}
+#body > ul li a:hover img {
+	opacity: 1;
+}
+
+#body > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+
+#body #hellothere {
+	background: #08092d;
+	color: #fff;
+	font-family: "Times New Roman", Times, serif;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: left;
+	text-decoration: none;
+	width: 1000px;
+}
+
+#body #hellothere > p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+
+
+/* In pages - Image + Text */
+
+
+#body {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+}
+#body #featured1 {
+	margin: 0 0 13px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#body #featured1 img {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#body #featured1 h1 {
+	position: absolute;
+	top: 1%;
+	left: 50%;
+	color: #fff;
+	display: inline;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 45px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #featured1 h1 span {
+	background: #252525;
+	display: inline-block;
+	padding: 15px 28px 12px;
+}
+#body #featured1 > div {
+	position: absolute;
+	top: 5%;
+	left: 13%;
+	margin: 0 auto;
+	padding: 0;
+	width: 74%;
+	heigth: auto;
+	
+}
+#body #featured1 > div img {
+	border: 2px solid #292929;
+	margin: 0;
+	padding: 0;
+	
+}
+#body #featured1 > div .article {
+	background: #fbeedc;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 30px 40px 0;
+	width: 90%;
+	heigth: 80%;
+}
+
+#body #featured1 > div .article h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+#body #featured1 > div .article h3 {
+	text-align: left;
+	color: #252525;
+	line-height: 24px;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+#body #featured1 > div .article h4 a {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 0 10px;
+	padding: 10px 10px 10px;
+}
+
+#body #featured1 > div .article p {
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 18px;
+	margin: 10px 5px 5px;
+}
+
+
+#body #featured1 > div .article dt{
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 18px;
+	margin: 5px 20px 5px;
+	
+
+}
+
+#body #featured1 > div .article dd{
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 18px;
+
+}
+
+
+#body #featured1 div > .article img {
+	height: 280px;
+	width: auto;
+	float: right;
+	margin: 0 0 15px;
+}
+
+
+
+#body #featured1 > div .article a {
+	float:right;
+ 	background: #ffaa80;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	margin: 10px 0 0;
+	padding: 0px 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#body #featured1 > div .article a:hover{
+	background: #ff9966;
+
+}
+
+
+
+#body #featured1 > div .reference a{
+	float: left;
+	color: #000;
+	background: none;
+	text-align: left;
+	font-size: 16px;
+	margin: 0 0 10px;
+	padding: 0;
+	text-decoration: none;
+	text-transform: none;	
+}
+
+#body #featured1 > div .reference a:hover{
+	color: #ff9966;
+	background: none;
+
+}
+
+
+/* Footer - + links */
+
+#footer {
+	background: #252525;
+	margin: 0;
+	padding: 36px 0 42px;
+}
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#footer div ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#footer div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 90px;
+}
+#footer div ul li a {
+	
+	display: block;
+	hight: 44px;
+	margin: 0;
+	padding: 0;
+	opacity: .8;
+	transition: 0.5s ease-in-out;
+}
+
+#footer div ul li a:hover {
+	opacity: 1;
+}
